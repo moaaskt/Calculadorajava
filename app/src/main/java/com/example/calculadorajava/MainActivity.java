@@ -132,7 +132,7 @@ public class MainActivity extends AppCompatActivity {
         bdot.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                et.setText(",");
+                et.setText(".");
 
             }
         });
