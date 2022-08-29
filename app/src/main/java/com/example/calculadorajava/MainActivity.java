@@ -203,7 +203,7 @@ public class MainActivity extends AppCompatActivity {
                 } else if (mul == true) {
 
                     f2 = Float.parseFloat(et.getText().toString());
-                    f = f1 * f2;
+                    f = f1*f2;
                     String mybadd = String.valueOf(f);
                     et.setText(mybadd);
                     mul = false;
@@ -211,7 +211,7 @@ public class MainActivity extends AppCompatActivity {
                 } else if (div == true) {
 
                     f2 = Float.parseFloat(et.getText().toString());
-                    f = f1 / f2;
+                    f = f1/f2;
                     String mybadd = String.valueOf(f);
                     et.setText(mybadd);
                     div = false;
